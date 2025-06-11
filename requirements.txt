@@ -1,5 +1,7 @@
 streamlit
 matplotlib
+fpdf
+numpy
 pandas
-openpyxl
-reportlab
+arabic-reshaper
+python-bidi
