@@ -4,7 +4,8 @@ import json
 from datetime import datetime
 from fpdf import FPDF
 
-
+st.set_page_config(page_title="اختبار تحديد مستوى القدرات - كمي", layout="centered")
+st.title(" اختبار تحديد مستوى القدرات - كمي")
 
 PASSWORD = "qdr2025"  
 
