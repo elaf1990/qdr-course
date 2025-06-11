@@ -1,4 +1,7 @@
 import streamlit as st
+st.set_page_config(page_title=" اختبار القدرات الكمي - بعد الدورة", layout="centered")
+st.title(" اختبار القدرات الكمي - بعد الدورة")
+
 import json
 import matplotlib.pyplot as plt
 import numpy as np
@@ -10,8 +13,6 @@ from fpdf import FPDF
 import arabic_reshaper
 from bidi.algorithm import get_display
 
-st.set_page_config(page_title=" اختبار القدرات الكمي - بعد الدورة", layout="centered")
-st.title(" اختبار القدرات الكمي - بعد الدورة")
 
 # كلمة المرور الخاصة بطلابك فقط
 PASSWORD = "qdr2025"  # غيرها لكلمة سر تحبها
